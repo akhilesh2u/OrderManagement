@@ -13,5 +13,5 @@
                http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 
     <!-- configure here resource to be shared within the domain -->
-<http:listener-config name="CustomerDetails-httpListenerConfig" host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration"/>
+<http:listener-config name="tempworks-bgcheck-httpListenerConfig" host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration"/>
 </domain:mule-domain>
